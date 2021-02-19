@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630F2D61250504FC0052C749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 630F2D60250504FC0052C749 /* AppDelegate.m */; };
+		630F2D64250504FC0052C749 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 630F2D63250504FC0052C749 /* SceneDelegate.m */; };
+		630F2D67250504FC0052C749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630F2D66250504FC0052C749 /* ViewController.m */; };
+		630F2D6C250505020052C749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630F2D6B250505020052C749 /* Assets.xcassets */; };
+		630F2D6F250505020052C749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630F2D6D250505020052C749 /* LaunchScreen.storyboard */; };
+		630F2D72250505020052C749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 630F2D71250505020052C749 /* main.m */; };
+		630F2D7A250506800052C749 /* MemoryReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 630F2D79250506800052C749 /* MemoryReader.m */; };
+		630F2D7D2505071D0052C749 /* MemoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 630F2D7C2505071D0052C749 /* MemoryObject.m */; };
+		630F2D80250557C50052C749 /* MemoryValidator.c in Sources */ = {isa = PBXBuildFile; fileRef = 630F2D7F250557C50052C749 /* MemoryValidator.c */; };
+		6334D83E2535B535002C0E12 /* SwiftContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334D83D2535B535002C0E12 /* SwiftContainer.swift */; };
+		6334D8412535B564002C0E12 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334D8402535B564002C0E12 /* Animal.swift */; };
+		6334D8442535B58A002C0E12 /* Kitty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334D8432535B58A002C0E12 /* Kitty.swift */; };
+		6347904225272E4200790490 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6347904125272E4200790490 /* Person.m */; };
+		637BE5B12541B610007DD440 /* IntrospectionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE5B02541B60F007DD440 /* IntrospectionFactory.m */; };
+		63A06CC525418756001107C3 /* SwiftIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A06CC425418756001107C3 /* SwiftIntrospection.m */; };
+		63A06CC925418AD4001107C3 /* MemoryObjectRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A06CC825418AD4001107C3 /* MemoryObjectRequest.m */; };
+		63A06CCD25419345001107C3 /* IntrospectionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A06CCC25419345001107C3 /* IntrospectionResult.m */; };
+		63A06CD92541A19B001107C3 /* ObjcIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A06CD82541A19B001107C3 /* ObjcIntrospection.m */; };
+		63CA4650250E800100553FD6 /* MemoryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CA464F250E800100553FD6 /* MemoryService.m */; };
+		63CA4654250E840F00553FD6 /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CA4653250E840F00553FD6 /* Graph.m */; };
+		63CA46782515FDA700553FD6 /* NodeContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CA46772515FDA700553FD6 /* NodeContainer.m */; };
+		63CA467B2517427A00553FD6 /* MemoryObjectIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CA467A2517427A00553FD6 /* MemoryObjectIntrospection.m */; };
+		63CA467F251F839D00553FD6 /* NSObject+Collection.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CA467E251F839D00553FD6 /* NSObject+Collection.m */; };
+		63F8FF2B2520DC940038D582 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8FF2A2520DC940038D582 /* Teacher.m */; };
+		63F8FF302520DC9B0038D582 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8FF2F2520DC9B0038D582 /* Student.m */; };
+		63F8FF342520DCA40038D582 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F8FF332520DCA40038D582 /* Dog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		630F2D5C250504FC0052C749 /* MemoryGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		630F2D5F250504FC0052C749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		630F2D60250504FC0052C749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		630F2D62250504FC0052C749 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		630F2D63250504FC0052C749 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		630F2D65250504FC0052C749 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		630F2D66250504FC0052C749 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		630F2D6B250505020052C749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		630F2D6E250505020052C749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		630F2D70250505020052C749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630F2D71250505020052C749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		630F2D78250506800052C749 /* MemoryReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryReader.h; sourceTree = "<group>"; };
+		630F2D79250506800052C749 /* MemoryReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryReader.m; sourceTree = "<group>"; };
+		630F2D7B2505071D0052C749 /* MemoryObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryObject.h; sourceTree = "<group>"; };
+		630F2D7C2505071D0052C749 /* MemoryObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryObject.m; sourceTree = "<group>"; };
+		630F2D7E250557C50052C749 /* MemoryValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryValidator.h; sourceTree = "<group>"; };
+		630F2D7F250557C50052C749 /* MemoryValidator.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MemoryValidator.c; sourceTree = "<group>"; };
+		6334D83D2535B535002C0E12 /* SwiftContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftContainer.swift; sourceTree = "<group>"; };
+		6334D8402535B564002C0E12 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		6334D8432535B58A002C0E12 /* Kitty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitty.swift; sourceTree = "<group>"; };
+		6347904025272E4200790490 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6347904125272E4200790490 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		6347904425273D3E00790490 /* TestingProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestingProtocol.h; sourceTree = "<group>"; };
+		637BE5AD2541B430007DD440 /* Inspectable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Inspectable.h; sourceTree = "<group>"; };
+		637BE5AF2541B60F007DD440 /* IntrospectionFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntrospectionFactory.h; sourceTree = "<group>"; };
+		637BE5B02541B60F007DD440 /* IntrospectionFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntrospectionFactory.m; sourceTree = "<group>"; };
+		637BE5BF25441553007DD440 /* IntrospectionResult+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntrospectionResult+Private.h"; sourceTree = "<group>"; };
+		63A06CC325418756001107C3 /* SwiftIntrospection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftIntrospection.h; sourceTree = "<group>"; };
+		63A06CC425418756001107C3 /* SwiftIntrospection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftIntrospection.m; sourceTree = "<group>"; };
+		63A06CC725418AD4001107C3 /* MemoryObjectRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryObjectRequest.h; sourceTree = "<group>"; };
+		63A06CC825418AD4001107C3 /* MemoryObjectRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryObjectRequest.m; sourceTree = "<group>"; };
+		63A06CCB25419345001107C3 /* IntrospectionResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntrospectionResult.h; sourceTree = "<group>"; };
+		63A06CCC25419345001107C3 /* IntrospectionResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntrospectionResult.m; sourceTree = "<group>"; };
+		63A06CD72541A19B001107C3 /* ObjcIntrospection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcIntrospection.h; sourceTree = "<group>"; };
+		63A06CD82541A19B001107C3 /* ObjcIntrospection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcIntrospection.m; sourceTree = "<group>"; };
+		63CA464E250E800100553FD6 /* MemoryService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryService.h; sourceTree = "<group>"; };
+		63CA464F250E800100553FD6 /* MemoryService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryService.m; sourceTree = "<group>"; };
+		63CA4652250E840F00553FD6 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		63CA4653250E840F00553FD6 /* Graph.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
+		63CA46752515FC0F00553FD6 /* NodeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeProtocol.h; sourceTree = "<group>"; };
+		63CA46762515FDA700553FD6 /* NodeContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeContainer.h; sourceTree = "<group>"; };
+		63CA46772515FDA700553FD6 /* NodeContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NodeContainer.m; sourceTree = "<group>"; };
+		63CA46792517427A00553FD6 /* MemoryObjectIntrospection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryObjectIntrospection.h; sourceTree = "<group>"; };
+		63CA467A2517427A00553FD6 /* MemoryObjectIntrospection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryObjectIntrospection.m; sourceTree = "<group>"; };
+		63CA467D251F839D00553FD6 /* NSObject+Collection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Collection.h"; sourceTree = "<group>"; };
+		63CA467E251F839D00553FD6 /* NSObject+Collection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Collection.m"; sourceTree = "<group>"; };
+		63F8FF292520DC940038D582 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		63F8FF2A2520DC940038D582 /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		63F8FF2E2520DC9B0038D582 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		63F8FF2F2520DC9B0038D582 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		63F8FF322520DCA30038D582 /* MemoryGraph-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemoryGraph-Bridging-Header.h"; sourceTree = "<group>"; };
+		63F8FF332520DCA40038D582 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		630F2D59250504FC0052C749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		630F2D53250504FC0052C749 = {
+			isa = PBXGroup;
+			children = (
+				630F2D5E250504FC0052C749 /* MemoryGraph */,
+				630F2D5D250504FC0052C749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		630F2D5D250504FC0052C749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				630F2D5C250504FC0052C749 /* MemoryGraph.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		630F2D5E250504FC0052C749 /* MemoryGraph */ = {
+			isa = PBXGroup;
+			children = (
+				63CA467C251F837E00553FD6 /* Utils */,
+				63F3A588250D3B9F00ECD984 /* Models */,
+				63F3A589250D3BB700ECD984 /* Services */,
+				63CA4651250E83EC00553FD6 /* Data structures */,
+				630F2D5F250504FC0052C749 /* AppDelegate.h */,
+				630F2D60250504FC0052C749 /* AppDelegate.m */,
+				630F2D62250504FC0052C749 /* SceneDelegate.h */,
+				630F2D63250504FC0052C749 /* SceneDelegate.m */,
+				630F2D65250504FC0052C749 /* ViewController.h */,
+				630F2D66250504FC0052C749 /* ViewController.m */,
+				630F2D6B250505020052C749 /* Assets.xcassets */,
+				630F2D6D250505020052C749 /* LaunchScreen.storyboard */,
+				630F2D70250505020052C749 /* Info.plist */,
+				630F2D71250505020052C749 /* main.m */,
+				63F8FF282520DC7D0038D582 /* Test models */,
+			);
+			path = MemoryGraph;
+			sourceTree = "<group>";
+		};
+		63A06CD32541A127001107C3 /* Swift Introspection */ = {
+			isa = PBXGroup;
+			children = (
+				63A06CC325418756001107C3 /* SwiftIntrospection.h */,
+				63A06CC425418756001107C3 /* SwiftIntrospection.m */,
+			);
+			path = "Swift Introspection";
+			sourceTree = "<group>";
+		};
+		63A06CD62541A134001107C3 /* ObjectiveC Introspection */ = {
+			isa = PBXGroup;
+			children = (
+				63A06CD72541A19B001107C3 /* ObjcIntrospection.h */,
+				63A06CD82541A19B001107C3 /* ObjcIntrospection.m */,
+			);
+			path = "ObjectiveC Introspection";
+			sourceTree = "<group>";
+		};
+		63CA4651250E83EC00553FD6 /* Data structures */ = {
+			isa = PBXGroup;
+			children = (
+				63CA46752515FC0F00553FD6 /* NodeProtocol.h */,
+				63CA4652250E840F00553FD6 /* Graph.h */,
+				63CA4653250E840F00553FD6 /* Graph.m */,
+				63CA46762515FDA700553FD6 /* NodeContainer.h */,
+				63CA46772515FDA700553FD6 /* NodeContainer.m */,
+			);
+			path = "Data structures";
+			sourceTree = "<group>";
+		};
+		63CA467C251F837E00553FD6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				63CA467D251F839D00553FD6 /* NSObject+Collection.h */,
+				63CA467E251F839D00553FD6 /* NSObject+Collection.m */,
+				637BE5AF2541B60F007DD440 /* IntrospectionFactory.h */,
+				637BE5B02541B60F007DD440 /* IntrospectionFactory.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		63F3A588250D3B9F00ECD984 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				630F2D7B2505071D0052C749 /* MemoryObject.h */,
+				630F2D7C2505071D0052C749 /* MemoryObject.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63F3A589250D3BB700ECD984 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				630F2D7E250557C50052C749 /* MemoryValidator.h */,
+				630F2D7F250557C50052C749 /* MemoryValidator.c */,
+				630F2D78250506800052C749 /* MemoryReader.h */,
+				630F2D79250506800052C749 /* MemoryReader.m */,
+				63CA464E250E800100553FD6 /* MemoryService.h */,
+				63CA464F250E800100553FD6 /* MemoryService.m */,
+				63CA46792517427A00553FD6 /* MemoryObjectIntrospection.h */,
+				63CA467A2517427A00553FD6 /* MemoryObjectIntrospection.m */,
+				63A06CC725418AD4001107C3 /* MemoryObjectRequest.h */,
+				63A06CC825418AD4001107C3 /* MemoryObjectRequest.m */,
+				63A06CCB25419345001107C3 /* IntrospectionResult.h */,
+				63A06CCC25419345001107C3 /* IntrospectionResult.m */,
+				637BE5BF25441553007DD440 /* IntrospectionResult+Private.h */,
+				637BE5AD2541B430007DD440 /* Inspectable.h */,
+				63A06CD62541A134001107C3 /* ObjectiveC Introspection */,
+				63A06CD32541A127001107C3 /* Swift Introspection */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		63F8FF282520DC7D0038D582 /* Test models */ = {
+			isa = PBXGroup;
+			children = (
+				63F8FF292520DC940038D582 /* Teacher.h */,
+				63F8FF2A2520DC940038D582 /* Teacher.m */,
+				63F8FF2E2520DC9B0038D582 /* Student.h */,
+				63F8FF2F2520DC9B0038D582 /* Student.m */,
+				63F8FF332520DCA40038D582 /* Dog.swift */,
+				6334D8432535B58A002C0E12 /* Kitty.swift */,
+				63F8FF322520DCA30038D582 /* MemoryGraph-Bridging-Header.h */,
+				6347904025272E4200790490 /* Person.h */,
+				6347904425273D3E00790490 /* TestingProtocol.h */,
+				6347904125272E4200790490 /* Person.m */,
+				6334D83D2535B535002C0E12 /* SwiftContainer.swift */,
+				6334D8402535B564002C0E12 /* Animal.swift */,
+			);
+			path = "Test models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		630F2D5B250504FC0052C749 /* MemoryGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630F2D75250505020052C749 /* Build configuration list for PBXNativeTarget "MemoryGraph" */;
+			buildPhases = (
+				630F2D58250504FC0052C749 /* Sources */,
+				630F2D59250504FC0052C749 /* Frameworks */,
+				630F2D5A250504FC0052C749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryGraph;
+			productName = MemoryGraph;
+			productReference = 630F2D5C250504FC0052C749 /* MemoryGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		630F2D54250504FC0052C749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "David Grigoryan";
+				TargetAttributes = {
+					630F2D5B250504FC0052C749 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1200;
+					};
+				};
+			};
+			buildConfigurationList = 630F2D57250504FC0052C749 /* Build configuration list for PBXProject "MemoryGraph" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 630F2D53250504FC0052C749;
+			productRefGroup = 630F2D5D250504FC0052C749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630F2D5B250504FC0052C749 /* MemoryGraph */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		630F2D5A250504FC0052C749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630F2D6F250505020052C749 /* LaunchScreen.storyboard in Resources */,
+				630F2D6C250505020052C749 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		630F2D58250504FC0052C749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A06CCD25419345001107C3 /* IntrospectionResult.m in Sources */,
+				630F2D80250557C50052C749 /* MemoryValidator.c in Sources */,
+				630F2D67250504FC0052C749 /* ViewController.m in Sources */,
+				630F2D61250504FC0052C749 /* AppDelegate.m in Sources */,
+				63CA4654250E840F00553FD6 /* Graph.m in Sources */,
+				630F2D72250505020052C749 /* main.m in Sources */,
+				63CA4650250E800100553FD6 /* MemoryService.m in Sources */,
+				630F2D7A250506800052C749 /* MemoryReader.m in Sources */,
+				637BE5B12541B610007DD440 /* IntrospectionFactory.m in Sources */,
+				63CA46782515FDA700553FD6 /* NodeContainer.m in Sources */,
+				63F8FF342520DCA40038D582 /* Dog.swift in Sources */,
+				63F8FF2B2520DC940038D582 /* Teacher.m in Sources */,
+				6347904225272E4200790490 /* Person.m in Sources */,
+				630F2D64250504FC0052C749 /* SceneDelegate.m in Sources */,
+				63A06CD92541A19B001107C3 /* ObjcIntrospection.m in Sources */,
+				6334D8442535B58A002C0E12 /* Kitty.swift in Sources */,
+				630F2D7D2505071D0052C749 /* MemoryObject.m in Sources */,
+				63F8FF302520DC9B0038D582 /* Student.m in Sources */,
+				63A06CC925418AD4001107C3 /* MemoryObjectRequest.m in Sources */,
+				63CA467B2517427A00553FD6 /* MemoryObjectIntrospection.m in Sources */,
+				6334D8412535B564002C0E12 /* Animal.swift in Sources */,
+				6334D83E2535B535002C0E12 /* SwiftContainer.swift in Sources */,
+				63CA467F251F839D00553FD6 /* NSObject+Collection.m in Sources */,
+				63A06CC525418756001107C3 /* SwiftIntrospection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		630F2D6D250505020052C749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630F2D6E250505020052C749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		630F2D73250505020052C749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		630F2D74250505020052C749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		630F2D76250505020052C749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3Z627ACC;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = MemoryGraph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidGrigoryan.MemoryGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MemoryGraph/Test models/MemoryGraph-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		630F2D77250505020052C749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY3Z627ACC;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = MemoryGraph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidGrigoryan.MemoryGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MemoryGraph/Test models/MemoryGraph-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		630F2D57250504FC0052C749 /* Build configuration list for PBXProject "MemoryGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630F2D73250505020052C749 /* Debug */,
+				630F2D74250505020052C749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630F2D75250505020052C749 /* Build configuration list for PBXNativeTarget "MemoryGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630F2D76250505020052C749 /* Debug */,
+				630F2D77250505020052C749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 630F2D54250504FC0052C749 /* Project object */;
+}
