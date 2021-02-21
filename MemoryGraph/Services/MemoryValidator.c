@@ -180,6 +180,12 @@ Class class_from_ptr(const void *inPtr) {
         else
         {
             ptrClass = (Class)isa;
+#if !TARGET_IPHONE_SIMULATOR
+            if (((isa + 0x1A000000000) & ISA_MAGIC_MASK) == ISA_MAGIC_VALUE)
+            {
+                ptrClass = (Class)(isa & ISA_MASK);
+            }
+#endif
         }
     }
 
