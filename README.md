@@ -1,3 +1,6 @@
+# Deprecation Note
+This tool is no longer supported starting from iOS 15. But you still can use it on lower versions for experimental purposes :)
+
 # MemoryGraph
 This application builds a memory graph of the app on which it is running on. The final graph represents relations between the various type of objects.
 
